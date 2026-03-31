@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-multipart
+passlib[bcrypt]
+python-jose[cryptography]
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-multipart
+passlib[bcrypt]
+python-jose[cryptography]

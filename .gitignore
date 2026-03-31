@@ -1,0 +1,30 @@
+# =========================
+# FRONTEND (ReactJS / Vite)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# =========================
+# BACKEND (FastAPI / Python)
+# =========================
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Bỏ qua file database SQLite (Nếu bạn muốn nộp cả data cho thầy cô thì thêm dấu # ở đầu dòng dưới)
+backend/gallery.db
+
+# Bỏ qua các file ảnh người dùng upload lên (nhưng giữ lại thư mục uploads)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# =========================
+# HỆ ĐIỀU HÀNH & CÔNG CỤ
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #f9fafb;
+}
+
+/* Định nghĩa dark mode cho Tailwind v4 */
+@variant dark (&:where(.dark, .dark *));
